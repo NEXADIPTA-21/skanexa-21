@@ -102,16 +102,23 @@
             margin-top: 1rem;
         }
 
-        .contact-info a {
-            color: var(--accent-purple);
-            text-decoration: none;
+        .btn-whatsapp {
+            display: inline-block;
+            background-color: var(--deep-purple);
+            color: #ffffff;
             font-weight: 600;
-            transition: color 0.2s ease;
+            font-size: 0.9375rem;
+            padding: 0.875rem 1.75rem;
+            border-radius: 0.75rem;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 12px rgba(59, 7, 100, 0.15);
         }
 
-        .contact-info a:hover {
-            color: var(--deep-purple);
-            text-decoration: underline;
+        .btn-whatsapp:hover {
+            background-color: var(--accent-purple);
+            transform: translateY(-1px);
+            box-shadow: 0 6px 16px rgba(147, 51, 234, 0.25);
         }
 
         @media (max-width: 640px) {
@@ -137,7 +144,9 @@
         <p>Kami sedang melakukan peningkatan infrastruktur dan pembaruan sistem untuk menghadirkan pengalaman yang lebih optimal. Mohon kunjungi kembali dalam beberapa saat.</p>
         
         <div class="contact-info">
-            Butuh bantuan mendesak? Hubungi kami melalui <a href="mailto:support@domain.com">support@domain.com</a>
+            <a href="https://wa.me/6285784247021?text=Halo%20Admin,%20saya%20ingin%20bertanya%20mengenai%20perbaikan%20website" target="_blank" class="btn-whatsapp">
+                Hubungi Admin via WhatsApp
+            </a>
         </div>
     </div>
 
